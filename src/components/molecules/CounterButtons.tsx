@@ -9,7 +9,7 @@ type CounterButtonsProps = {
 const CounterButtons: React.FC<CounterButtonsProps> = ({ onIncrement, onDecrement }) => {
   return (
     <div className="flex space-x-4">
-      {/* Properti onClick diteruskan ke Button */}
+      {/* Свойство onClick передается кнопке. */}
       <Button onClick={onIncrement} label="Increment" />
       <Button onClick={onDecrement} label="Decrement" />
     </div>
